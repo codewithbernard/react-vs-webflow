@@ -7,3 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-gradient {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+}
