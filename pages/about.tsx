@@ -9,6 +9,7 @@ const About: NextPage = () => {
     <>
       <Head>
         <title>About React</title>
+        <meta name="description" content="About React"></meta>
       </Head>
       <section className="min-h-screen pt-32 px-9">
         <main className="bg-white max-w-4xl py-8 px-8 md:px-12 mx-auto rounded-lg shadow-2xl">

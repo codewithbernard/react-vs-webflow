@@ -42,11 +42,12 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>React JS</title>
+        <meta name="description" content="React JS"></meta>
       </Head>
       <section className="min-h-screen flex justify-center items-center">
         <main className="flex flex-col items-center">
           <div className="w-48 h-48 mb-6 rounded-full bg-white shadow-sm flex justify-center items-center">
-            <Image width={100} height={100} src={logo} alt="React logo" />
+            <Image width={200} height={200} src={logo} alt="React logo" />
           </div>
           <h1 className="m-0 mb-2 text-3xl font-bold tracking-wide">React</h1>
           <h2 className="font-light mb-5">
